@@ -48,3 +48,26 @@
   display: inherit;  
  }  
    
+
+ nav ul ul li {  
+    width: 170px;  
+    float: none;  
+    display: list-item;  
+    position: relative;  
+   }  
+   nav ul ul ul li {  
+    position: relative;  
+    top: -60px;  
+    left: 170px;  
+   }  
+   h1 {  
+    width: 670px;  
+    color: black;  
+    font-size: 1.4rem;  
+   }  
+   li > a:after {  
+    content: " +";  
+   }  
+   li > a:only-child:after {  
+    content: "";  
+   }
